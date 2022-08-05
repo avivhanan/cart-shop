@@ -1,0 +1,52 @@
+.shop-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    width: 500px;
+    background-color: lightskyblue;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 32px;
+}
+
+.list {
+    display: flex;
+    font-weight: bold;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    border-bottom: 1px solid black;
+}
+
+.header-txt {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cart-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.home-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.empty {
+    pointer-events: none;
+    opacity: 0.2;
+}

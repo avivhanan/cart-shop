@@ -1,0 +1,15 @@
+.shop-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 5PX;
+    font-weight: bold;
+}
+
+.item-btn {
+    cursor: pointer;
+}
