@@ -1,0 +1,17 @@
+.message {
+    background-color: white;
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+    border-radius: 2px;
+    position: fixed;
+    right: 10px;
+    padding: 24px;
+}
+
+.delete-message {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}

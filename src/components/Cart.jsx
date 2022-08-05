@@ -16,6 +16,7 @@ export default function Cart(props) {
         props.setOrders([...props.orders, props.cart]);
         props.setShowCart(false)
         props.setCart([])
+        props.onBuyMessage();
     }
 
     return (
